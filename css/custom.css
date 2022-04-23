@@ -206,22 +206,28 @@
     margin: 10px;
 }
 
-.content img {
-    width: 60px;
-    height: 60px;
-    border: 1px solid green;
-    border-radius: 50px;
-    margin: 50px;
-    background-color: green;
-}
-.content h2{
+.content-section h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 50px;
+}
+.content-section .row {
+    margin-right: 100px !important;
+    margin-left: 100px !important;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.content-section .row p {
+    padding-top: 15px;
+}
+
+.new {
+    background: yellow;
 }
 
 .btn{
     border: none !important;
+    margin-top: 40px !important;
 }
 
 .btn button:hover {
