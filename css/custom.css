@@ -123,26 +123,21 @@
 }
 
 .section .text-success {
-     font-weight: 900 !important;
+     font-weight: 700 !important;
      font-family: sans-serif !important;
-     font-size: 70px !important;
+     font-size: 80px !important;
      padding-top: 200px !important;
-
+}
+.section  p {
+    line-height: 28px !important; 
+    font-size: 16px;
+    font-family: sans-serif;
+    opacity: 0.8;   
+}
+.section img {
+    border-radius: 10px;
 }
 
-
-
-
-.section p {
-    line-height: 28px;
-    font-family: 'Open Sans', sans-serif !important;
-    font-family: 'Poppins', sans-serif !important;
-    
-}
-
-.row .col img {
-    border-radius: 10px !important;
-}
 .container1 {
     align-items: center;
     text-align: center;
@@ -154,13 +149,12 @@
 }
 .container1 h2 {
     font-weight: bolder;
-    font-family: 'Open Sans', sans-serif !important;
     font-family: 'Poppins', sans-serif !important;   
 }
 .pack {
     display: flex;
 }
-.manner1 {
+.monitoring {
     display: flex;
     margin-left: 35px;
     margin-right: 35px;
@@ -169,14 +163,14 @@
     padding: 10px;
     border: 1px solid black;
 }
-.manner1 img {
+.monitoring img {
     width: 70px;
     height: 60px;
     margin: 10px;
     
 }
 
-.manner2 {
+.detections {
     display: flex;
     margin-top: 20px;
     margin-left: 35px;
@@ -187,23 +181,25 @@
     border: 1px solid black;
     
 }
-.manner2 img {
+.detections img {
     width: 70px;
     height: 60px;
     margin: 10px;
 }
 
-.manner3 {
+.track {
     display: flex;
     margin-left: 35px;
     margin-right: 35px;
     margin-top: 20px;
     font-size: 17px;
     padding: 10px;
+    line-height: 20px;
+    word-spacing: 5px;
     line-height: 15px;
     border: 1px solid black;
 }
-.manner3 img {
+.track img {
     width: 70px;
     height: 60px;
     margin: 10px;
