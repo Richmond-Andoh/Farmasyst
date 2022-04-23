@@ -63,7 +63,7 @@
 
 .navbar {
     position: absolute;
-    top: 50px;
+    top: 70px;
     width: 100%;
 }
 .navbar-brand img {
@@ -84,23 +84,29 @@
     height: 20px !important;
     width: 20px !important;
 }
-.container {
+.top-bar {
     position: absolute !important;
-    top: 5px !important;
+    top: 6px !important;
     left: 40px;
-    color: white !important;
     font-weight: 900;
     font-size: 20px;
+    display: flex;
 }
 
-.container span {
-    border-bottom: 5px solid yellow;
+.top-bar .text {
+    border-bottom: 3px solid yellow;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-right: 60px;
 }
-.container a {
-    margin: 5px;
-    background: whitesmoke;
-    border-radius: 15px;
+.top-bar .media {
+    margin-left: 70px;   
 }
+
+.top-bar .telephone {
+    margin-left: 200px;
+}
+
 #previous {
     display: none;
 }
@@ -225,13 +231,11 @@
 }
 
 .btn{
-    background: gold !important;
-    border: none;
-    border-radius: 7px;
+    border: none !important;
 }
 
 .btn button:hover {
-    background: darkgoldenrod;
+    background: darkgoldenrod !important;
 }
 
 .post {
@@ -303,21 +307,7 @@
     display: flex;
 }
 
-#sidebar {
-    background: black;
-    color: white;
-    width: 350px;
-    position: fixed;
-    top: 0;
-    left: -30%;
-    height: 100%;
-    padding: 40px;
-    font-size: 18px;
-}
 
-#sidebar.active {
-    left: 0;
-}
 .pain img {
     width: 100px;
     height: 40px;
@@ -346,20 +336,5 @@
     height: 20px;
 }
 
-.toggle-btn {
-    position: absolute;
-    left: 150%;
-    top: 15px;
-    right: 50px;
-}
-
-.toggle-btn span {
-    display: block;
-    background: black;
-    color: white;
-    width: 50px;
-    height: 5px;
-    margin: 5px;
-}
 
 
