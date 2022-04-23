@@ -260,13 +260,12 @@
    
 .footer-content {
     margin-top: 80px;
-    border-top: 5px solid yellow;
-    background-size: cover !important;
+    border-top: 5px solid yellow; 
     background: #009a40;
     padding-left: 20px;
     color: white;
     font-weight: 200;
-    height: 500px;
+    
     line-height: 25px;
     padding-top: 100px;
     padding-left: 40px;
