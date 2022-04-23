@@ -258,7 +258,7 @@
     margin-bottom: 20px;
 }
    
-.footer {
+.footer-content {
     margin-top: 80px;
     border-top: 5px solid yellow;
     background-size: cover !important;
@@ -273,64 +273,36 @@
     width: 100%;
 }
 
-.container2 img {
+.footer-content img {
     width: 150px;
     height: 60px;   
 }
 
-.container2 span {
+.footer-content span {
     border-bottom: 3px solid yellow;
 }
 
 
 
-#arrange {
+.details {
     margin: 50px;
     color: white;
 }
-#arrange img {
+.details img {
     width: 150px;
     height: 60px;
     margin-bottom: 20px;
 }
-.container2 h2 {
+.footer-content h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     font-size: 20px;
 }
-
-.pack {
-    display: flex;
+.footer-content p {
+    font-size: 17px;
+    font-weight: 500;
 }
 
-
-.pain img {
-    width: 100px;
-    height: 40px;
-    margin-bottom: 30px;
-}
-
-.line {
-    display: flex;
-    padding: 20px;
-
-}
-.line img {
-    width: 150px;
-    height: 70px;
-    padding: 5px;
-}
-
-.leap {
-    display: flex;
-    padding: 20px;
-
-}
-
-.leap img {
-    width: 20px;
-    height: 20px;
-}
 
 
 
