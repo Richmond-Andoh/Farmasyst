@@ -216,49 +216,49 @@
     margin-left: 100px !important;
     font-size: 18px;
     opacity: 0.8;
+    border-bottom: 1px solid yellow;
 }
 .content-section .row p {
     padding-top: 15px;
 }
 
-.new {
-    background: yellow;
-}
 
 .btn{
     border: none !important;
-    margin-top: 40px !important;
+    margin-top: 60px !important;
 }
 
 .btn button:hover {
     background: darkgoldenrod !important;
 }
 
-.post {
+.partners {
     align-items: center;
     text-align: center;
     margin-top: 70px;
+    margin-bottom: 70px !important;
 }
-.post img {
-    width: 55px;
+.partners img {
+    width: 60px;
     height: 55px;
     margin: 30px;
     text-align: center;
 }
-.post h2 {
+.partners h2 {
     padding-top: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     font-size: 40px;
 }
-.boot img {
+.kic img {
     width: 240px;
     height: 100px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 50px;
+    margin-bottom: 20px;
 }
    
-.container2 {
+.footer {
     margin-top: 80px;
     border-top: 5px solid yellow;
     background-size: cover !important;
