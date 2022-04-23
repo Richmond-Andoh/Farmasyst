@@ -138,30 +138,31 @@
     border-radius: 10px;
 }
 
-.container1 {
+.container-fluid {
     align-items: center;
     text-align: center;
     padding: 5px;
 }
-.container1 img {
+.container-fluid img {
     width: 60px;
     height: 60px;
 }
-.container1 h2 {
+.container-fluid h2 {
     font-weight: bolder;
     font-family: 'Poppins', sans-serif !important;   
 }
-.pack {
+.aid {
     display: flex;
 }
 .monitoring {
     display: flex;
     margin-left: 35px;
     margin-right: 35px;
-    font-size: 16px;
-    line-height: 15px;
-    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px;
     border: 1px solid black;
+    word-spacing: 5px;
 }
 .monitoring img {
     width: 70px;
@@ -175,10 +176,11 @@
     margin-top: 20px;
     margin-left: 35px;
     margin-right: 35px;
-    font-size: 17px;
-    line-height: 15px;
-    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px;
     border: 1px solid black;
+    word-spacing: 5px;
     
 }
 .detections img {
@@ -192,11 +194,10 @@
     margin-left: 35px;
     margin-right: 35px;
     margin-top: 20px;
-    font-size: 17px;
-    padding: 10px;
-    line-height: 20px;
+    font-size: 18px;
+    padding: 20px;
     word-spacing: 5px;
-    line-height: 15px;
+    line-height: 30px;
     border: 1px solid black;
 }
 .track img {
