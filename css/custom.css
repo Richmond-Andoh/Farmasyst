@@ -2,15 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none !important;
+    outline-color: initial !important;
+    outline-style: none !important;
+    outline-width: initial !important;
 }
 
 .carousel-item img {
-    height: 600px !important;
+    height: 700px !important;
 }
 
 
 .carousel-item .carousel-caption h1 {
-    padding-bottom: 65px !important;
+    padding-bottom: 50px !important;
     font-size: 60px !important;
     font-family: 'Open Sans', sans-serif !important;
     font-family: 'Poppins', sans-serif !important
@@ -66,7 +70,7 @@
     width: 100%;
 }
 .navbar-brand img {
-    width: 150px !important;
+    width: 120px !important;
     height: 50px !important;
     margin-left: 70px !important;
 }
@@ -77,7 +81,7 @@
 .nav-item {
     margin-left: 40px !important;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 .bd-highlight img {
     height: 20px !important;
@@ -158,53 +162,53 @@
 }
 .monitoring {
     display: flex;
-    margin-left: 30px;
+    font-size: 18px;
     margin-right: 30px;
-    font-size: 16px;
-    line-height: 25px;
-    padding: 15px;
     border: 1px solid black;
-    word-spacing: 5px;
 }
 .monitoring img {
     width: 70px;
     height: 60px;
-    margin: 10px;
+    margin-top: 5px;
     
+}
+.monitoring p {
+    margin-right: 30px;
+    padding-right: 50px;
 }
 
 .detections {
     display: flex;
-    margin-top: 15px;
-    margin-left: 30px;
     margin-right: 30px;
-    font-size: 16px;
-    line-height: 25px;
-    padding: 15px;
+    font-size: 18px;
     border: 1px solid black;
-    
+    margin-top: 10px;
     
 }
 .detections img {
     width: 70px;
     height: 60px;
-    margin: 10px;
+    margin-top: 5px;
+}
+.detections p {
+    margin-right: 20px;
 }
 
 .track {
-    display: flex;
-    margin-left: 30px;
     margin-right: 30px;
-    margin-top: 20px;
+    display: flex;
+    margin-top: 10px;
     font-size: 16px;
-    padding: 15px;
-    line-height: 25px;
     border: 1px solid black;
 }
 .track img {
     width: 70px;
     height: 60px;
-    margin: 10px;
+    margin-top: 5px !important;
+}
+.track p {
+    margin-right: 30px;
+    padding-right: 50px;
 }
 
 .content-section h2{
@@ -279,7 +283,7 @@
 }
 
 .aid .d-block {
-    height: 80vh !important;
-    width: 70vw !important;
+    height: 100vh !important;
+    width: 80vw !important;
 }
 
