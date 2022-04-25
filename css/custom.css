@@ -223,7 +223,6 @@
     padding-top: 15px;
 }
 
-
 .btn{
     border: none !important;
     margin-top: 60px !important;
@@ -278,3 +277,9 @@
     width: 150px;
     height: 60px;
 }
+
+.aid .d-block {
+    height: 80vh !important;
+    width: 70vw !important;
+}
+
