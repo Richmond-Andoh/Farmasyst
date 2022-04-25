@@ -100,9 +100,19 @@
     display: none;
 }
 
+.fa {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.fa:hover {
+    color: yellow;
+}
+
 .top-bar {
     position: absolute !important;
-    top: 6px !important;
+    top: 5px !important;
     left: 40px;
     font-weight: 900;
     font-size: 20px;
@@ -116,11 +126,11 @@
     margin-right: 60px;
 }
 .top-bar .social-media {
-    margin-left: 70px;   
+    padding-left: 70px;   
 }
 
 .top-bar .telephone {
-    margin-left: 200px;
+    padding-left: 100px;
 }
 
 
@@ -285,12 +295,11 @@
 .footer-content {
     border-top: 2px solid yellow;  
     background: #009a40;
-    padding-left: 30px;
     color: white;
     font-weight: 200;
-    padding-top: 100px;
-    padding-left: 40px;
-    padding: 70px;
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-bottom: 50px;
 }
 
 .footer-content img {
