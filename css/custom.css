@@ -131,6 +131,42 @@ body {
     padding-left: 100px;
 }
 
+.aid {
+    opacity: 0.8;
+}
+
+#monitoring {
+    display: flex;
+    line-height: 30px;
+    border: 0.6px solid black;
+    margin-right: 80px;
+}
+
+#monitoring p {
+    padding-right: 70px;
+}
+
+#detections{
+    display: flex;
+    margin-top: 20px;
+    line-height: 30px;
+    border: 0.6px solid black;
+    margin-right: 55px;
+}
+#detections p {
+    padding-right: 70px;
+}
+
+#track {
+    display: flex;
+    margin-top: 20px;
+    line-height: 30px;
+    border: 0.6px solid black;
+    margin-right: 55px;
+}
+#track p {
+    padding-right: 78px;
+}
 
 .section {
     align-items: center;
@@ -138,7 +174,7 @@ body {
     margin-top: 50px;
     margin-bottom: 40px;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 73px;
 }
 
 .section .text-success {
