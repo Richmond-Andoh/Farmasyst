@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
-
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 <body>
   
@@ -90,7 +90,7 @@
  
   <div class="top-bar" style="color: white;">
     <div class="text">
-        <span style="color: white;"> Save the farmer, feed the world</span>
+      <span style="color: white;"> Save the farmer, feed the world</span>
     </div> 
     <div class="social-media">
       <strong style="opacity: 0.6;"> Follow us</strong>
@@ -123,7 +123,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/slide-image.jpg" class="d-block w-100" alt="...">
+              <img src="images/slide-image.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
               <img src="images/slide00.jpg" class="d-block w-100" alt="...">
@@ -139,69 +139,77 @@
           </div>
         <div>
       </div>
-    </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <section class="services" id="solution">
-    <div class="container-fluid">
+  
+  <div class="container-fluid">
       <img src="images/shape.png" alt="">
       <h6 class="p-3"> Products &amp; Services </h6>
       <h2 class="p-4 text-center">Our comprehensive and diverse platform, for  effective farm <br> and resource monitoring.</h2>
-    </div>
-    <div class="aid">
-      <img src="images/farma1.png" alt="" class="img-fluid mx-auto d-block">
-      <div class="container">
-        <div class="monitoring">
-          <img src="images/icomonitor.png" alt="" class="img-fluid mx-auto">
-            <p class="pt-3"> <strong style="font-size: 30px; font-weight: 500;">Monitoring and Supervison</strong> <br>
-              monitoring software <strong> (SaaS)</strong> as a service for all <br>
-              Agribusinesses with our customized platform to <br> monitor all farm
-              activities and farmers and <br> providing well trained agric extension officers <br> and 
-              supervisors to guide, train and monitor <br> farmers through real time farm alerts and <br> reports.
-            </p>
+  </div>
+  <div class="aid" id="solution">
+    <div class="row">
+      <div class="col">
+        <img src="images/farma1.png" alt="" class="img-fluid mx-auto d-block">
+      </div>
+      <div class="col">
+        <div class="row"> 
+          <div class="col">   
+              <img src="images/icomonitor.png" alt="" class="img-fluid mx-auto" style="width: 5vw; height: 10vh;">
+              <p class="pt-3"> <strong style="font-size: 20px; font-weight: 300;">Monitoring and Supervison</strong> <br>
+                  monitoring software <strong> (SaaS)</strong> as a service for all
+                  Agribusinesses with our customized platform to monitor all farm
+                  activities and farmers and  providing well trained agric extension officers  and 
+                  supervisors to guide, train and monitor farmers through real time farm alerts and  reports.
+              </p>
           </div>
-          <div class="detections">
-            <img src="images/icodisease.png" alt="" class="img-fluid mx-auto">
-            <p class="pt-2">
-            <strong style="font-size: 30px; font-weight: 500;"> Disease detection and Reporting</strong> <br>
-              Provides an offline plant disease detection 
-              and <br> a real time farm disease and emergency report <br> and 
-              response system.
+          <div class="col">
+              <img src="images/icodisease.png" alt="" class="img-fluid mx-auto" style="width: 5vw; height: 10vh;">
+              <p class="pt-2">
+                  <strong style="font-size: 20px; font-weight: 500;"> Disease detection and Reporting</strong> <br>
+                    Provides an offline plant disease detection 
+                    and <br> a real time farm disease and emergency report and 
+                    response system.
+              </p>
           </div>
-          <div class="track">
-            <img src="images/icomap.png" alt="" class="img-fluid mx-auto">
-            <p class="pt-3"><strong style="font-size: 30px; font-weight: 500;">Farm Mapping and Tracking</strong> <br>
-              Our system allows for the
-              location  of farms to <br> be tracked to aid 
-              quick response assistance <br> and monitoring services.</p>
+          <div class="col">
+              <img src="images/icomap.png" alt="" class="img-fluid mx-auto" style="width: 5vw; height: 10vh;">
+              <p class="pt-3"><strong style="font-size: 20px; font-weight: 500;">Farm Mapping and Tracking</strong> <br>
+                Our system allows for the
+                location  of farms to be tracked to aid 
+                quick response assistance  and monitoring services.
+              </p>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <section class="content-section">
-     <h2 class="pb-5 pt-5 text-center">How it works</h2>
-      <div class="row">
-        <div class="col">
-          <img src="images/reg.png" alt="" class="rounded-circle bg-success" style="width: 140px; height: 140px; padding: 45px;">
-          <p class="text-dark text-start">Registration of farmers <br> and farms with near <br> accurate GPS  coordinates.</p>
-        </div>
-        <div class="col">
-          <img src="images/officer.png" alt="" class="rounded-circle bg-success" style="width: 140px; height: 140px;  padding: 45px;">
-          <p class="text-dark text-start">Assign agric extension <br> officers or supervisors  to <br> farms and farmers.</p>
-        </div>
-        <div class="col">
-          <img src="images/rep.png" alt="" class="rounded-circle bg-success" style="width: 140px; height: 140px;  padding: 45px;">
-          <p class="text-dark text-start">Agric extension officers or supervisors  monitor <br> farm activities on field and <br> provide real time reports.</p>
-        </div>
-        <div class="col">
-          <img src="images/track.png" alt="" class="rounded-circle bg-success" style="width: 140px; height: 140px;  padding: 45px;">
-          <p class="text-dark text-start">We track all farm reports and <br> ensures effective utilization of <br> the resources sourced to <br> the farmer.</p>
-        </div>
+    <h2 class="text-center">How it works</h2>
+    <div class="row">
+      <div class="col">
+        <i class="bi bi-card-checklist"></i> <hr class="new">
+        <p class="text-dark text-start">Registration of farmers <br> and farms with near <br> accurate GPS <br>  coordinates.</p>
       </div>
+      <div class="col">
+        <i class="bi bi-person-fill"></i> <hr class="new">
+        <p class="text-dark text-start">Assign agric extension <br> officers or supervisors  to <br> farms and farmers.</p>
+      </div>
+      <div class="col">
+        <i class="bi bi-journal-text"></i> <hr class="new">
+
+        <p class="text-dark text-start">Agric extension officers or supervisors  monitor <br> farm activities on field and <br> provide real time reports.</p>
+      </div>
+      <div class="col"> 
+        <i class="bi bi-receipt-cutoff"></i>
+        
+        <p class="text-dark text-start">We track all farm reports <br> and ensures effective utilization <br> of  the resources sourced <br> to the farmer.</p>
+      </div>
+    </div>
   </section>
 
   <div class="text-center">
@@ -220,37 +228,37 @@
 
  
   <footer class="footer-content">
-      <div class="row">
-        <div class="col">
-         <img src="images/logo.png" alt="">
-         <p style="font-weight: 500;">Providing a platform for <br> Agribusinesses to monitor <br>
-          farmers and their  <br> resources.</p>
-        </div>
-        <div class="col">
-         <h4><span style="border-bottom: 3px solid yellow;">LOCATION</span></h4>
-         <P class="pt-4" style="font-weight: 500;">YENDI, <br>
-            P.O.Box YD 2 <br>
-            Gushegu Road, Yendi. <br>
-            Northern Region, Ghana.
-          </P>
-        </div>
-        <div class="col">
-          <h4><span style="border-bottom: 3px solid yellow;"> CONTACT INFO</span></h4>
-          <p class="pt-4" style="font-weight: 500;">+233 (0) 553613773 <br>
-            +233 (0) 242654266 <br>
-           <a href="#" style="color: white; text-decoration: none;"> farmasystltd@gmail.com</a>
-          </p>
-        </div>
+    <div class="row">
+      <div class="col">
+       <img src="images/logo.png" alt="">
+       <p style="font-weight: 500;">Providing a platform for <br> Agribusinesses to monitor <br>
+        farmers and their  <br> resources.</p>
       </div>
-      <hr>
-      <div class="row">
-        <div class="col">
-          <p style="color: white; font-weight: 500;">© 2021 Farmasyst | AgricTech Company</p>
-        </div>
-        <div class="col">
-          <p style="color: white; font-weight: 500;">Developed with love by <span style="color: yellow;"> Perditha & Baffour </span></p>
-        </div>
+      <div class="col">
+       <h4><span style="border-bottom: 3px solid yellow;">LOCATION</span></h4>
+       <P class="pt-4" style="font-weight: 500;">YENDI, <br>
+          P.O.Box YD 2 <br>
+          Gushegu Road, Yendi. <br>
+          Northern Region, Ghana.
+        </P>
       </div>
+      <div class="col">
+        <h4><span style="border-bottom: 3px solid yellow;"> CONTACT INFO</span></h4>
+        <p class="pt-4" style="font-weight: 500;">+233 (0) 553613773 <br>
+          +233 (0) 242654266 <br>
+         <a href="#" style="color: white; text-decoration: none;"> farmasystltd@gmail.com</a>
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <p style="color: white; font-weight: 500;">© 2021 Farmasyst | AgricTech Company</p>
+      </div>
+      <div class="col">
+        <p style="color: white; font-weight: 500;">Developed with love by <span style="color: yellow;"> Perditha & Baffour </span></p>
+      </div>
+    </div>
   </footer>
   <script src="js/bootstrap.min.js"></script> 
 </body>
