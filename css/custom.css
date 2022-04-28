@@ -27,11 +27,20 @@ body {
     margin-top: 50px;
     margin-bottom: 60px;
     font-family: 'Poppins', sans-serif !important;
-    transition: 2s ease-out 100ms !important;
+    transition: all 0.5s !important;
+    cursor: pointer !important;
+    margin: 5px;
 }
+
 .carousel-item .carousel-caption button:hover {
-    background: green;
+    background: #009a40;
+    transition: 0.5s !important;
 }
+
+
+
+
+
 .carousel-control-prev-icon {
     border: 2px solid white;
     border-radius: 30px;
@@ -295,10 +304,6 @@ body {
     margin-left: 50px !important;
     margin-bottom: 20px !important;
 }
-
-
-
-
 
 .footer-content {
     border-top: 2px solid yellow;  
