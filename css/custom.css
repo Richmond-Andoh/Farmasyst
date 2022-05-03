@@ -7,8 +7,8 @@ body {
     font-family: 'Poppins';font-size: 17px;
     
 }
-.container-fluid {
-    position: absolute;
+.d-sm-block {
+    position: absolute !important;
     top: 5px !important;
 }
 .carousel-item img {
