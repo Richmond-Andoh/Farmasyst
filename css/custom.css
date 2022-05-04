@@ -10,11 +10,6 @@
     top: 5px !important;
 }
 
-.carousel-item .carousel-caption button:hover {
-    background: #009a40;
-    transition: 0.5s !important;
-}
-
 .carousel-control-prev-icon {
     border: 2px solid white;
     border-radius: 30px;
@@ -65,13 +60,4 @@
     padding-right: 47px;
     padding-top: 40px;
     padding-bottom: 40px;
-}
-
-.btn {
-    border: none !important;
-    margin-top: 60px !important;
-}
-
-.btn button:hover {
-    background: darkgoldenrod !important;
 }
