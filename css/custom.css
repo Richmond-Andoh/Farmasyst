@@ -10,20 +10,6 @@
     top: 5px !important;
 }
 
-.carousel-control-prev-icon {
-    border: 2px solid white;
-    border-radius: 30px;
-    width: 60px;
-    height: 60px;
-}
-
-.carousel-control-next-icon {
-    border: 2px solid white;
-    border-radius: 30px;
-    width: 60px;
-    height: 60px;
-}
-
 .carousel-control-next-icon:hover {
     background: yellow;
     transition: 2s ease-out 100ms !important;
@@ -31,9 +17,6 @@
 
 .carousel-control-prev-icon:hover {
     background: yellow;
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
     transition: 2s ease-out 100ms !important;
 }
 
