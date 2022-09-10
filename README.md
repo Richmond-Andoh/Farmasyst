@@ -8,6 +8,9 @@ it as an end of explorers program project
 1 HTML
 2 Bootstrap
 
+## Screenshots
+<img src="images/farmsyst.png">
+
 ## Demo
 
 You can access it live on  https://richmond-andoh.github.io/Farmasyst
