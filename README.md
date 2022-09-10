@@ -9,7 +9,7 @@ it as an end of explorers program project
 2 Bootstrap
 
 ## Screenshots
-[](https://github.com/Richmond-Andoh/Farmasyst/blob/main/images/farmasyst.PNG)
+![](https://github.com/Richmond-Andoh/Farmasyst/blob/main/images/farmasyst.PNG)
 
 ## Demo
 
