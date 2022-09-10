@@ -31,21 +31,10 @@ Go to the project directory
 For support, email richmondandoh00@gmail.com.
 
 
-## 🚀 About Me
-I'm a frontend developer
-
-
-## 🛠 Skills
-Javascript, HTML, MaterializeCss, Bootstrap,NodeJS, ExpressJS 
-
-## 🔗 Links
-[![linkedin](https://www.linkedin.com/in/richmond-andoh-65443b234/)](https://www.linkedin.com/)
-
 
 ## Contributing
 
 Contributions are always welcome!
-
 
 
 
