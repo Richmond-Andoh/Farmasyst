@@ -9,7 +9,7 @@ it as an end of explorers program project
 2 Bootstrap
 
 ## Screenshots
-<img src="images/farmsyst.png">
+<img src="images/farmasyst.png">
 
 ## Demo
 
