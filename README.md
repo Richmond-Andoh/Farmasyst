@@ -34,12 +34,12 @@ Go to the project directory
 ```
 
 
-## Support
+# Support
 
 For support, email richmondandoh00@gmail.com.
 
 
 
-## Contributing
+# Contributing
 
 Contributions are always welcome!
