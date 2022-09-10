@@ -9,7 +9,7 @@ it as an end of explorers program project
 2 Bootstrap
 
 ## Screenshots
-#[](images/farmasyst.png)
+#[](images/farmasyst.PNG)
 
 ## Demo
 
