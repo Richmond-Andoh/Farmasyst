@@ -2,6 +2,12 @@
 
 This is a replica of Farmasyst website. I was tasked to design 
 it as an end of explorers program project
+
+## Designed with
+
+1 HTML
+2 Bootstrap
+
 ## Demo
 
 You can access it live on  https://richmond-andoh.github.io/Farmasyst
